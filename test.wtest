@@ -1,0 +1,13 @@
+import objects.*
+
+test "testX" {
+	sara.afectar(malaria)
+	assert.equals(40, sara.getTemperatura())
+}
+
+test "Afectar por varicela" {
+	sara.afectar(varicela)
+	assert.equals(85, sara.getVitalidad())
+	assert.equals(49.5, sara.getPeso())
+		
+}
